@@ -4,10 +4,10 @@ import java.util.concurrent.TimeUnit;
 
 public class EjemploPrincipioNoAplicado {
 
-    private final static Integer NUMERO_COCHES_PRODUCIR = 5;
-    private final static Integer TIEMPO_PROCESO_PINTURA = 4;
-    private final static Integer TIEMPO_PROCESO_RUEDA = 1;
-    private final static Integer TIEMPO_PROCESO_INTERIOR = 4;
+    public final static Integer NUMERO_COCHES_PRODUCIR = 5;
+    public final static Integer TIEMPO_PROCESO_PINTURA = 4;
+    public final static Integer TIEMPO_PROCESO_RUEDA = 1;
+    public final static Integer TIEMPO_PROCESO_INTERIOR = 4;
 
     public static void lineaProduccionSinPrincipio() throws InterruptedException {
         System.out.println("Inicia la linea de producción...");
